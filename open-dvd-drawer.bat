@@ -1,0 +1,1 @@
+powershell -Command "New-Object -ComObject WMPlayer.OCX.7 | ForEach-Object { $_.cdromCollection.Item(0).Eject() }"
